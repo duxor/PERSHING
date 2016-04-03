@@ -1,0 +1,135 @@
+/*
+Theme name: PERSHING
+Description: Tema je prilagođena prezentacionoj svrsi kao i blog sistemu, što će reći da dostiže visok nivo univerzalnosti i prilagodljivosti. Tokom razvoja biće redovno ažurirana i dopunjavana u skladu sa potrebama i zahtevima korisnika, a poslednja verzija nalaziće se na adresi ispod. Tema je prilagožena Srpskom jeziku, a za njegovu aktivaciju potrebno je izabrati jezik podešavanjima Wordpress Srpski.
+Theme URI: https://github
+Tags: one-column, two-columns, right-sidebar, fluid-layout, flexible-header, responsive-layout, custom-background, custom-menu, featured-images, theme-options, custom-colors, dark, light, black, blue, brown, gray, green, orange, pink, purple, red, silver, tan, white, yellow
+Text Domain: pershing
+Domain Path: /languages
+Author: Dusan Perisic
+Author URI: dusanperisic.com
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+*{
+	font-family: 'Helvetica Neue', arial, sans-serif;
+}
+body{
+    width: 100%;
+}
+.navbar{
+    margin-bottom: 0;
+}
+.navbar-default-c{
+    background-color: #FFFFFF;
+    border-style: none;
+    border-bottom: #eee 1px solid;
+    border-radius: 0;
+}
+.home-front-page{
+    width: 100%;
+    height:550px;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.home-front-page img{
+    width: 100%;
+}
+.home-front-page .jumbotron{
+    margin: 10% auto 0 auto;
+    background-color: rgba(22,4,39,0.82);
+    color:#fff;
+}
+.footer{
+    background-color: #000;
+    padding: 30px;
+    color: #fff;
+    text-align: center;
+}
+.footer nav ul li{
+    list-style-type: none;
+}
+.footer .info b{
+    font-size: 140%
+}
+.footer .copyright{
+    font-size: 70%;
+    margin-top: 20px
+}
+.comment-text{
+    float: left;
+    margin: 0 5px 5px 0;
+}
+.upoznavanje img{
+    width: 100%
+}
+.justify{
+    text-align: justify;
+}
+.child-page-nav{
+    margin: 20px 0;
+}
+.child-page-nav ul li{
+    float: left;
+    padding: 10px 20px 10px 0;
+    list-style-type: none;
+    font-size: 150%;
+}
+.child-page-nav ul .parent-link a{
+    font-weight: bold;
+    color: #284F71;
+}
+.child-page-nav ul li a:hover{
+    text-decoration: none;
+    border-bottom: solid 1px #428bca;
+}
+.child-page-nav ul .divider{
+    color: #bbb;
+    font-weight: bold;
+}
+.child-page-nav ul .current_page_item a{
+    font-weight: bold;
+    border-bottom: solid 1px #428bca;
+}
+.child-page-nav ul li a,.child-page-nav ul li a:hover,.child-page-nav ul li a:active{
+    color: #428bca;
+}
+.post-info,.post-info a{
+    color: #aaa;
+    margin-top: -5px;
+}
+.post-info a{
+    font-style: italic;
+}
+.segment{
+    padding: 50px 0 70px 0;
+}
+.segment, .segment a, .segment a:hover, .segment a:active{
+    color: #fff;
+}
+.segment-text-black, .segment-text-black a, .segment-text-black a:hover, .segment-text-black a:active{
+    color: #000;
+}
+.segment-light-blue{
+    background-color: rgba(0,149,255,0.87);
+}
+.segment-light-red{
+    background-color: rgba(249,64,64,1);
+}
+.segment-light-purple{
+    background-color: rgba(182,144,243,1);
+}
+#googleMap {
+    width: 100%;
+    height: 400px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.top-60{
+    margin-top: 60px;
+}
+.e404 h1{
+    font-size: 800%;
+    margin: 100px auto 300px auto;
+}

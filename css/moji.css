@@ -1,0 +1,75 @@
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Helvetica Neue', arial, sans-serif;
+}
+.page-section {
+	width: 100%;
+	min-height: 800px;
+	padding: 10px 0 50px 0;
+	border-bottom: 10px solid #fff;
+}
+.page-section#pocetna{
+	background: url(../slike/pozadine/pocetna.jpg) top center no-repeat;
+	color:#fff;
+	padding: 50px 0;
+}
+.page-section#portfolio{
+	background: url(../slike/pozadine/portfolio.jpg) top center no-repeat;
+}
+.page-section#nauka{
+	background: url(../slike/pozadine/nauka.jpg) top center no-repeat;
+}
+.page-section#interesovanja{
+	background: url(../slike/pozadine/interesovanja.jpg) top center no-repeat;
+}
+.page-section#kontakt{
+	background: url(../slike/pozadine/kontakt.jpg) top center no-repeat;
+}
+#pocetna h1{margin: 50px 0;}
+.page-section h1 {
+	font-size: 4em;
+	margin: 0;
+	text-shadow: 4px 4px 4px #000;
+	font-weight:bold;
+	color:#fff;	
+}
+/*#portfolio h1{
+	color:#fff;	
+}
+*/.page-section h1 span {
+	font-weight: 200;
+}
+.page-section h2 {
+	font-size: 3em;
+	font-weight: 900;
+	color: #fff;
+	margin: 0 0 30px;
+	text-shadow: 2px 2px 2px #000;
+}
+.page-section p {
+	font-size: 1.2em;
+	font-weight: 200;
+	margin: 0 25% 20px 0;
+}
+@media (min-width: 768px) {
+	.header .navbar-brand {
+		padding-left: 0;
+	}
+	.navbar-nav {
+		float: right;
+	}
+}
+@media (max-width: 480px) {
+	.page-section h1 {
+		font-size: 3em;
+	}
+	.page-section h2 {
+		font-size: 2em;
+	}
+	.page-section p {
+		font-size: 1em;
+		margin: 0 0 20px;
+	}
+}

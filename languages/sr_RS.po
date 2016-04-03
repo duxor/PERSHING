@@ -1,0 +1,224 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pershing V1.0\n"
+"POT-Creation-Date: 2016-04-02 15:32+0200\n"
+"PO-Revision-Date: 2016-04-02 15:33+0200\n"
+"Last-Translator: \n"
+"Language-Team: Dusan Perisic <kontakt@dusanerisic.com>\n"
+"Language: sr_RS\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:4
+msgid "Error! Page not found."
+msgstr "Greška! Stranica nije pronađena."
+
+#: comments.php:7
+#, php-format
+msgid "1 Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] "%1$s Komentar"
+msgstr[1] "%1$s Komentara"
+msgstr[2] "%1$s Komentara"
+
+#: comments.php:14
+msgid "No comments for this post."
+msgstr "Nema komentara za ovu objavu."
+
+#: comments.php:26
+msgid "Leave a Reply"
+msgstr "Komentarišite"
+
+#: comments.php:27
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Komentarišite %s"
+
+#: comments.php:28
+msgid "Cancel Reply"
+msgstr "Otkaži odgovor"
+
+#: comments.php:29
+msgid "Post Comment"
+msgstr "Komentar"
+
+#: comments.php:31
+msgid "Your email address will not be published."
+msgstr "Vaša email adresa neće biti objavljivana."
+
+#: comments.php:34 front-page.php:62 front-page.php:64
+msgid "Name"
+msgstr "Ime"
+
+#: comments.php:37 front-page.php:68 front-page.php:70
+msgid "Email"
+msgstr "Email"
+
+#: comments.php:40
+msgid "Website"
+msgstr "Web sajt"
+
+#: comments.php:42
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Morate biti <a href=\"%s\">prijavljeni</a> da biste ostavili komentar."
+
+#: comments.php:43
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account.\">Log out?</a>"
+msgstr ""
+"Prijavljeni ste kao <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title="
+"\"Odjavi se sa ovog naloga.\">Odjavi se?</a>"
+
+#: front-page.php:74 front-page.php:76
+msgid "Message"
+msgstr "Poruka"
+
+#: front-page.php:82
+msgid "Submit"
+msgstr "Potvrdi"
+
+#: functions.php:15
+msgid "Main Menu"
+msgstr "Glavni meni"
+
+#: functions.php:16
+msgid "Footer Menu"
+msgstr "Futer meni"
+
+#: functions.php:109
+msgid "Add a menu"
+msgstr "Dodaj meni"
+
+#: functions.php:133
+#, php-format
+msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">says:</span>"
+msgstr "<cite class=\"fn\">%s</cite> "
+
+#: functions.php:137
+msgid "Your comment is awaiting moderation."
+msgstr "Vaš komentar čeka odobrenje moderator."
+
+#: functions.php:144
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s u %2$s"
+
+#: functions.php:144
+msgid "(Edit)"
+msgstr "(Izmeni)"
+
+#: functions.php:150
+msgid "Reply"
+msgstr "Odgovori"
+
+#: functions.php:251
+msgid "Basic Options"
+msgstr "Osnovne opcije"
+
+#: functions.php:252
+msgid "Advanced Options"
+msgstr "Napredne opcije"
+
+#: functions.php:260
+msgid "Save map settings"
+msgstr "Sačuvaj podešavanja za mapu"
+
+#: functions.php:267
+msgid "Save background settings"
+msgstr "Sačuvaj podešavanja pozadine"
+
+#: functions.php:272
+msgid "Advanced Options are available in PERSHING Premium theme."
+msgstr "Napredne opcije dostupne su u PERSHING Premium temi."
+
+#: functions.php:275
+msgid "Created by"
+msgstr "Kreator"
+
+#: functions.php:300
+msgid "Location for front page map"
+msgstr "Lokacija za mapu na početnoj strani"
+
+#: functions.php:307
+msgid "Show Map"
+msgstr "Prikaži mapu"
+
+#: functions.php:315
+msgid "Show map with location on my front page."
+msgstr "Prikaži mapu sa lokacijom na mojoj početnoj stranici."
+
+#: functions.php:324 functions.php:332
+msgid "X coordinate"
+msgstr "X koordinata"
+
+#: functions.php:341 functions.php:349
+msgid "Y coordinate"
+msgstr "Y koordinata"
+
+#: functions.php:360
+msgid "Front Background"
+msgstr "Pozadina na početnoj stranici"
+
+#: functions.php:366
+msgid "Show custom front background"
+msgstr "Prikaži izmenjenu pozadinu na početnoj strani"
+
+#: functions.php:374
+msgid "Show my background"
+msgstr "Prikaži moju pozadinu"
+
+#: functions.php:382
+msgid "Front background"
+msgstr "Pozadina na početnoj strani"
+
+#: functions.php:390
+msgid "Choice image"
+msgstr "Izaberi fotografiju"
+
+#: header.php:27
+msgid "Toggle navigation"
+msgstr "Prikaži navigaciju"
+
+#: loop-page.php:19 loop.php:24
+msgid "No posts."
+msgstr "Nema objava."
+
+#: loop.php:6
+msgid "Posted by"
+msgstr "Objavio"
+
+#: loop.php:11 single.php:16
+msgid "Posted in"
+msgstr "Objavljeno u"
+
+#: single.php:12
+msgid "by"
+msgstr "od"
+
+#: single.php:29
+msgid "Sorry, no posts matched your criteria."
+msgstr "Nisu pronađene ciljane objave."
+
+#~ msgid "Error!"
+#~ msgstr "Greška!"
+
+#~ msgid "Save Changes"
+#~ msgstr "Sačuvaj izmene"
+
+#~ msgid "Vaša e-mail adresa neće biti objavljivana, a polja sa * su obavezna."
+#~ msgstr ""
+#~ "Vaša e-mail adresa neće biti objavljivana, a polja sa * su obavezna."
