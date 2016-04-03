@@ -159,8 +159,7 @@ function mytheme_comment($comment, $args, $depth) {
     }
 
 function get_top_ancestor_id(){
-    global $post;
-    
+    global $post;    
     if($post->post_parent){ 
         $ancestors=array_reverse(get_post_ancestors($post->ID));
         return $ancestors[0];
@@ -223,30 +222,12 @@ function pershing_theme_menu(){
 add_action('admin_menu', 'pershing_theme_menu');
 function pershing_theme_page(){
 ?>
-        
-        
-        
-        
-        
     <div class="section panel">
         <h1>PERSHING Settings</h1>
         <div class="wrap">
             <div id="icon-options-general" class="icon32"></div>
             <?php settings_errors(); ?>
-            <?php
-                $active_tab = get_active_tab_options();/*"basic_options";
-                if(isset($_GET["tab"]))
-                {
-                    if($_GET["tab"] == "basic_options")
-                    {
-                        $active_tab = "basic_options";
-                    }
-                    else
-                    {
-                        $active_tab = "advanced_options";
-                    }
-                }*/
-            ?>
+            <?php $active_tab = get_active_tab_options(); ?>
             <h2 class="nav-tab-wrapper">
                 <a href="?page=pershing_theme_options.php" class="nav-tab <?php if($active_tab == 'basic_options'){echo 'nav-tab-active';} ?> "><?php _e('Basic Options', 'pershing'); ?></a>
                 <a href="?page=pershing_theme_options.php&tab=advanced_options" class="nav-tab <?php if($active_tab == 'advanced_options'){echo 'nav-tab-active';} ?>"><?php _e('Advanced Options', 'pershing'); ?></a>
